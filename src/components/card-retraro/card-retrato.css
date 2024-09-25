@@ -1,0 +1,43 @@
+.card-retrato {
+    border: 1px solid #d41400;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-retrato-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .card-info {
+    margin-top: 5px;
+  }
+  
+  .download-button {
+    background-color: #f1f1f1;
+    color: #d41400;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 1px;
+  }
+  
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  .titulo-retrato{
+    font-size: 8px;
+    font-family:sans-serif;
+    text-transform: uppercase;
+  }
+
+  .texto-retrato{
+    font-size: 5rem;
+  }

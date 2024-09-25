@@ -1,0 +1,31 @@
+
+.button-red {
+    color: #b41400;
+    background-color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: solid #b41400 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+.button-red:hover {
+    color: #B41400;
+    background-color: #e5e5e5;
+}
+
+.button-black {
+    color: #282828; /* Texto en color negro oscuro */
+    background-color: #ffffff; /* Fondo blanco */
+    padding: 8px 16px; /* Espaciado interno */
+    border-radius: 4px; /* Bordes redondeados */
+    border: solid #282828 2px; /* Borde negro oscuro */
+    cursor: pointer; /* Cursor de mano al pasar sobre el botón */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transiciones suaves para fondo y color */
+}
+
+.button-black:hover {
+    color: #282828; /* Mantiene el color del texto */
+    background-color: #e5e5e5; /* Fondo gris claro al pasar el mouse */
+}
+

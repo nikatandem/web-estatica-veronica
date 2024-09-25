@@ -1,0 +1,56 @@
+.landing-container {
+    font-family: Arial, sans-serif;
+    color: #282828;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+  }
+  
+  
+
+  
+  .hero-button {
+    background-color: #B41400;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+    display: inline-block;
+  }
+  
+  .highlights {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #f7f7f7;
+  }
+  
+  .highlight-item {
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .highlight-item h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .highlight-item p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .highlight-item a {
+    color: #B41400;
+    text-decoration: none;
+  }
+  
+  .footer-section {
+    background-color: #282828;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
