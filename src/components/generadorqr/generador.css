@@ -5,13 +5,15 @@
   }
   
   .selector {
-    width: 300px !important;
+    width: 100px !important;
     margin: 0px;
   }
   
   .dato {
-    width: 100%;
     font-size: 14px;
+    padding: 10px;
+    width: 60%;
+    margin: 10px 0;
   }
   
   h4 {
@@ -19,4 +21,52 @@
     padding: .3em;
     margin-top: 4px;
   }
-  
+  .button-red {
+    color: #b41400;
+    background-color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: solid #b41400 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-red:hover {
+    color: #B41400;
+    background-color: #e5e5e5;
+}
+
+.button-black {
+    color: #282828;
+    background-color: #ffffff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: solid #282828 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button-black:hover {
+    color: #282828;
+    background-color: #e5e5e5;
+}
+
+@media (max-width: 767px) {
+  .dato {
+    width: 90%; /* Hacer que los inputs ocupen más espacio horizontal */
+    font-size: 12px; /* Reducir ligeramente el tamaño de la fuente */
+    margin-left: 30px;
+  }
+
+  .selector {
+    width: 80px; /* Ajustar el tamaño de los selectores */
+  }
+
+  button {
+    padding: 6px 12px; /* Reducir el padding de los botones */
+  }
+
+  h4 {
+    font-size: 14px;
+  }
+}

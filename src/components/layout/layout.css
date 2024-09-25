@@ -28,4 +28,18 @@
     width: auto;
   }
   
-  
+  /* Media Query para pantallas pequeñas (máximo 767px) */
+@media (max-width: 767px) {
+  .layout-container {
+    padding: 8px; /* Reducir el padding en pantallas pequeñas */
+  }
+
+  .header {
+    flex-direction:row; 
+    align-items: flex-start; /* Alinear los elementos a la izquierda */
+  }
+
+  .logo {
+    height: 50px; /* Ajustar el tamaño del logo */
+  }
+}

@@ -54,3 +54,21 @@
     padding: 20px;
   }
   
+
+  @media (max-width: 767px) {
+    .highlights {
+      flex-direction: column; /* Apilar los items en columna */
+      padding: 20px; /* Reducir el padding */
+    }
+  
+    .highlight-item {
+      max-width: 100%; /* Permitir que los elementos ocupen el ancho completo */
+      margin-bottom: 20px; /* Añadir espacio entre los elementos */
+    }
+  
+    .hero-button {
+      font-size: 16px; /* Reducir el tamaño de los botones */
+      padding: 8px 16px; /* Ajustar el padding */
+    }
+  }
+  
