@@ -54,7 +54,7 @@ const IndexPage = () => {
       </section>
 
       <footer className="footer-section">
-        <p>© 2024 Patrimonio Nacional. Todos los derechos reservados.</p>
+        <p>© 2024 · TandEM Aranjuez, todos los derechos reservados.</p>
       </footer>
       </div>
 </>

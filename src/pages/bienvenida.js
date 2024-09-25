@@ -2,6 +2,7 @@ import * as React from "react"
 import MenuLateral from "../components/menu-lateral/lateral";
 import Layout from "../components/layout/layout";
 import { StaticImage } from "gatsby-plugin-image";
+import "../components/index.css";
 
 const Bienvenida = () => {
   return (
@@ -24,7 +25,9 @@ Dar a conocer Patrimonio Nacional es dar a conocer nuestra historia. Y preservar
 Ana de la Cueva
 Presidenta de Patrimonio Nacional</p>
 </div>
-
+<footer className="footer-section">
+        <p>© 2024 · TandEM Aranjuez, todos los derechos reservados.</p>
+      </footer>
 </>
   )
 };

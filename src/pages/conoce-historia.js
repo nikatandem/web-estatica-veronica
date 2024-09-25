@@ -1,6 +1,8 @@
 import * as React from "react"
 import Layout from "../components/layout/layout";
 import MenuLateral from "../components/menu-lateral/lateral";
+import "../components/index.css";
+
 const Historia = () => {
   return (
     <>
@@ -36,6 +38,9 @@ const Historia = () => {
 <p>La naturaleza diversa de los bienes y la compatibilidad de usos de los mismos hace que la labor de servicio público a la que se debe Patrimonio Nacional sea amplia y compleja. Este singular conjunto integrado de bienes históricos es uno de los más importantes entre los de las antiguas cortes de Europa, y su actual doble uso público, cultural y representativo, es el resultado de un largo proceso histórico, que hace de Patrimonio Nacional una institución única en el mundo.</p>
 
     </div>
+    <footer className="footer-section">
+        <p>© 2024 · TandEM Aranjuez, todos los derechos reservados.</p>
+      </footer>
     </>
   )
 }

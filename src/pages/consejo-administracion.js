@@ -18,6 +18,7 @@ import image13 from "../images/image13.jpg";
 import image14 from "../images/image14.jpg";
 import image15 from "../images/image15.jpg";
 import image16 from "../images/image16.jpeg";
+import "../components/index.css";
 
 
 const Consejo = () => {
@@ -241,6 +242,9 @@ const Consejo = () => {
         <PersonCard {...person15} />
         <PersonCard {...person16} />
       </div>
+      <footer className="footer-section">
+        <p>© 2024 · TandEM Aranjuez, todos los derechos reservados.</p>
+      </footer>
       </div>
     </>
   );

@@ -1,7 +1,7 @@
 import * as React from "react";
-import { Link } from "gatsby";
 import Layout from "../components/layout/layout";
 import MenuLateral from "../components/menu-lateral/lateral";
+import "../components/index.css";
 
 const Actos = () => {
   return (
@@ -50,6 +50,9 @@ const Actos = () => {
           Cumbre Iberoamericana de Jefes de Estado y de Gobierno (1992).
         </p>
       </div>
+      <footer className="footer-section">
+        <p>© 2024 · TandEM Aranjuez, todos los derechos reservados.</p>
+      </footer>
     </>
   );
 };

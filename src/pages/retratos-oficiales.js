@@ -2,6 +2,7 @@ import * as React from "react";
 import Layout from "../components/layout/layout";
 import MenuLateral from "../components/menu-lateral/lateral";
 import CardRetrato from "../components/card-retraro/card-retrato";
+import "../components/index.css";
 
 import image1 from '../images/retrato1.jpg';
 import image2 from '../images/retrato2.jpg';
@@ -128,6 +129,9 @@ const RetratosPage = () => {
         />
       ))}
     </div>
+    <footer className="footer-section">
+        <p>© 2024 · TandEM Aranjuez, todos los derechos reservados.</p>
+      </footer>
       </div>
     </>
    
